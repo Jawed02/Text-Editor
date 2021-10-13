@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="icon.png">
+    <script src="editor.js"></script>
+    <script src="jspdf.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>TEXT EDITOR</h1>
+    </div>
+   <div class="btn buttons">
+
+    <button
+         type="button"
+         onclick="f1()">     
+         Bold
+       </button>
+       <button
+         type="button"
+         onclick="f2()">     
+         Italic
+       </button>
+       <button
+         type="button"
+         onclick="f6()">     
+         Upper Case
+       </button><button
+       type="button"
+       onclick="f7()">     
+       Lower Case
+     </button>
+
+     <button
+         type="button"
+         onclick="f8()">     
+         Capitalize
+       </button>
+
+     <button
+         type="button"
+         onclick="f9()">     
+         Clear Text
+       </button>
+
+
+   </div>
+
+    <div class="textarea">
+      <textarea
+        id="textarea1"
+        rows="15"
+        cols="30"
+        placeholder="Your text here "
+      ></textarea>
+    </div>
+    <div class="btn">
+      
+      <button
+      type="button"
+      onclick="genPdf()">     
+      Save as PDF
+    </button>
+   
+    <input type="text" class="fl" id="fileName" placeholder="Enter Your File Name" required>
+
+
+    </div>
+
+<br>
+<br>
+
+
+<div clas="footer">
+    
+  <h4 id="name">S.Jawed</h4>
+  
+  <div class="icons">
+  
+ <a href="https://www.facebook.com/profile.php?id=100008428983331" target="_blank" >
+  <i class="fa fa-facebook"></i>
+ </a>
+
+ <a href="https://www.instagram.com/jawed02/" target="_blank">
+  <i class="fa fa-instagram"></i>
+</a>
+<a href="https://twitter.com/JAWED__02" target="_blank">
+  <i class="fa fa-twitter"></i>
+</a>
+
+<a href="https://github.com/Jawed02" target="_blank">
+  <i class="fa fa-github"></i>
+ </a>
+
+<a href="https://www.linkedin.com/in/shahnawazjawed/" target="_blank">
+  <i class="fa fa-linkedin"></i>
+</a>
+
+ 
+
+
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

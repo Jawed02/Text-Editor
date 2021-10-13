@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header {
+      border:1px solid white;
+      box-shadow: 5px 5px 20px 0px #888888;
+      padding-bottom: 20px;
+    }
+  #textarea1 {
+    padding: 20px;
+    border:2px solid grey;
+    width: 87%;
+    font-size: 17px;
+    letter-spacing:2px
+}
+  #textarea1:hover {
+      border-color:#fec8d8;
+  }
+  button {
+      font-size: 15px;
+    margin: 10px;
+    border: 1px solid;
+    margin-bottom: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: #957dad;
+    background-color:grey;
+    color:white;
+  }
+
+  button:hover {
+    background-color: white;
+    color:black;
+  }
+  .textarea {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+  .btn {
+      text-align: center;
+ 
+  }
+  textarea::placeholder {
+      font-size: 16px;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  .fl {
+      border:none;
+      border-bottom: 1px solid grey;
+      padding:10px;
+      width:60%;
+      margin-bottom: 50px;
+  }
+  .fl::placeholder {
+    letter-spacing: 2px;
+  }
+  .fl:hover {
+      border-color: #957dad;
+  }
+#textarea1 {
+  margin-right: 20px;
+}
+.buttons {
+  display:inline-block;
+  margin-top: 30px;
+  text-align: center;
+ }
+
+
+ #name{
+  font-family: 'Qwigley', cursive;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:5px;
+  color:grey;
+
+
+}
+
+.icons i {
+  
+  opacity:0.7;
+  /* margin-left:1.3em; */
+  font-size:1.2em;
+  transition:0.2s;
+  padding:0.65em;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  /* background:#d4dbe8; */
+ 
+}
+
+.icons i:hover {
+  opacity:1;
+  border-radius:50%;
+  background:white;
+  transform:scale(1.1);
+  mix-blend-mode:normal;
+   box-shadow: /* -11px -11px 22px rgba(255,
+                 255, 255, 0.524448), */
+                 /* 11px 13px 22px rgba(166,
+                 181, 208, 0.929496), */
+                /* inset -11px -11px 28px rgba(255,
+                255,255,0.692936) */
+                  inset 11px 11px 28px rgba(166,181,
+                  208,0.856261);
+                
+} 
+.footer{ 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  /* height:100vh; */
+  background-color:#d4dbe8;
+  
+
+ 
+}
+
+.icons {
+
+  margin-top:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left: 0px;
+  font-size: 17px;
+
+
+}
+a:hover {
+  cursor:pointer;
+  color:#141e30;
+}
+a {
+
+  color: inherit;
+  text-decoration: inherit;
+
+}
